@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>YouTube's Video stats</title>
+    <link rel="stylesheet" href="demo.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/tomorrow.min.css">
+
+</head>
+<body>
+
+<div id="video-placeholder"></div>
+
+<div id="controls">
+    <ul>
+        <li>
+            <h2>Duration:</h2>
+            <p><span id="current-time">0:00</span> / <span id="duration">0:00</span></p>  
+        </li>
+
+        <li>
+            <h2>Start Time:</h2>
+            <p><span id="start-time">00:00:00</span></p>  
+        </li>
+        
+        <li>
+            <h2>End Time:</h2>
+            <p><span id="stop-time">00:00:00</span></p>  
+        </li>
+
+        <li>
+            <h2>Total run time:</h2>
+            <p><span id="total-run-time">00:00:00</span></p>  
+        </li>
+
+    </ul>
+
+</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
